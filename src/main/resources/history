@@ -1,0 +1,213 @@
+
+for(y <- (1..5); d <- (0..365);n <- (0..10)) yield {
+for (i <-(0 to 10)) yield i
+for(y <- (1 to 5); d <- (0 to 365);n <- (0 to 10)) yield {  (y,d,n)}
+for(y <- (1 to 5); d <- (0 to 365)) yield {  (y,d)}def i2Date(y:Int,d:Int):Datejava.text.SimpleDate
+format("yyyy").parse(2009.toString)new java.text.SimpleDate
+format("yyyy").parse(2009.toString)
+val dt = new java.text.SimpleDate
+format("yyyy").parse(2009.toString)cal c = Calendar.getInstanseimport java.util.Calendar
+val c = Calendar.getInstance
+val dt = java.text.SimpleDate
+format("yyyy").parse(2010.toString)
+val dt = java.text.SimpleDate
+format("yyyy")
+val dt = c.set( new java.text.SimpleDate
+format("yyyy").parse("2010"))c.set
+val dt = new java.text.SimpleDate
+format("yyyy").parse("2010")cc.setTime(dt)c.add(Calendar.DATE,1)c.getTimedef getDate(y:Int, d:Int):String = {  import java.text.SimpleDate
+format  
+val sdf = new SimpleDate
+format("yyyy-mm-dd")  import java.util.Calendar  
+val c = Calendar.getInstance  c.setTime(sdf.parse(s"$y-01-01"))  c.add(Calendar.DATE,d)  sdf.
+format(c.getTime())}getDate(2018,100)getDate(2018,10)getDate(2018,0)getDate(2018,1)getDate(2018,30)getDate(2018,30)getDate(2018,60)getDate(2018,60)def getDate(y:Int, d:Int):String = {  import java.time.LocalDate  LocalDate.parse(s"$y-01-01")).plusDays(d).toString}impor java.time.LocalDateimport java.time.LocalDateLocalDate.parse("2018/01/01").addDays(10)LocalDate.parse("2018/01/01")LocalDate.parse("2018-01-01")LocalDate.parse("2018-01-01").addDays(50)LocalDate.parse("2018-01-01").plusDays(50)LocalDate.parse("2018-01-01").plusDays(50).toStringdef getDate(y:Int, d:Int):String = {  import java.time.LocalDate  LocalDate.parse(s"$y-01-01")).plusDays(d).toString}def getDate(y:Int, d:Int):String = {  import java.time.LocalDate  LocalDate.parse(s"$y-01-01").plusDays(d).toString}getDate(2018,60)def getCoordinates():(String,String) = {   import scala.util.Random   
+val y = random.nextDouble(120.0) - 60.0   
+val x = random.nextDouble(360.0) - 180.0   import scala.Math   (Math.round(y,2).toString, Math.round(x,2).toString)}def getCoordinates():(String,String) = {   import scala.util.Random   
+val y = random.nextDouble(120.0) - 60.0   
+val x = random.nextDouble(360.0) - 180.0   (Math.round(y,2).toString, Math.round(x,2).toString)}Math.round(0.234,2)Math.round(0.234)def getCoordinates():(String,String) = {   import scala.util.Random   
+val y = random.nextDouble(120.0) - 60.0   
+val x = random.nextDouble(360.0) - 180.0   ((y % 0.01).toString, (x % 0.01).toString)}def getCoordinates():(String,String) = {   import scala.util.Random   
+val y = Random.nextDouble(120.0) - 60.0   
+val x = Random.nextDouble(360.0) - 180.0   ((y % 0.01).toString, (x % 0.01).toString)}def getCoordinates():(String,String) = {   import scala.util.Random   
+val y = Random.nextDouble * 180 - 60.0   
+val x = Random.nextDouble * 360 - 180.0   ((y % 0.01).toString, (x % 0.01).toString)}getCoordinatesdef getCoordinates():(String,String) = {   import scala.util.Random   
+val y = Random.nextDouble * 180 - 60.0   
+val x = Random.nextDouble * 360 - 180.0   ((y - (y % 0.01)).toString, (x - (x % 0.01)).toString)}getCoordinatesgetCoordinatesgetCoordinatesgetCoordinatesgetCoordinatesdef getCoordinates():(String,String) = {   import scala.util.Random   
+val y = Random.nextDouble * 180 - 60.0   
+val x = Random.nextDouble * 60 - 30.0   ((y - (y % 0.01)).toString, (x - (x % 0.01)).toString)}def getTemp(d:int, y:int):Int = {  
+val grad:Double = 0.01  
+val rand = scala.util.Random.nextDouble * 6 - 3  
+val ygrad = 20.0 / 60  
+val aver = 40 - Math.abs(y)  
+val ses = Math.sin(2 * Math.PI * (-30 + d)/360)  
+val sesd = 20  
+val t = aver + sesd * ses  t}def getTemp(d:int, y:int):Int = {  
+val grad:Double = 0.01  
+val rand = scala.util.Random.nextDouble * 6 - 3  
+val ygrad = 20.0 / 60  
+val aver = 40 - Math.abs(y)  
+val ses = Math.sin(2 * Math.PI * (-30 + d)/360)  
+val sesd = 20  
+val t = aver + sesd * ses  t.round}def getTemp(d:int, y:int):Int = {  
+val grad:Double = 0.01  
+val rand = scala.util.Random.nextDouble * 6 - 3  
+val ygrad = 20.0 / 60  
+val aver = 40 - Math.abs(y)  
+val ses = Math.sin(2 * Math.PI * (-30 + d)/360)  
+val sesd = 20  
+val t = aver + sesd * ses  t.toInt}def getTemp(d:Int, y:Int):Int = {  
+val grad:Double = 0.01  
+val rand = scala.util.Random.nextDouble * 6 - 3  
+val ygrad = 20.0 / 60  
+val aver = 40 - Math.abs(y)  
+val ses = Math.sin(2 * Math.PI * (-30 + d)/360)  
+val sesd = 20  
+val t = aver + sesd * ses  t.toInt}getTemp(0,0)def getTemp(d:Int, y:Int):Int = {  
+val grad:Double = 0.01  
+val rand = scala.util.Random.nextDouble * 6 - 3  
+val ygrad = 20.0 / 60  
+val aver = 40 - Math.abs(y)  
+val ses = Math.sin(2 * Math.PI * (-30 + d)/360)  
+val sesd = 20  
+val t = aver + sesd * ses + rand  t.toInt}getTemp(0,0)getTemp(0,0)getTemp(0,0)getTemp(0,0)getTemp(0,0)getTemp(0,0)getTemp(30,0)getTemp(30,0)getTemp(90,0)getTemp(90,0)getTemp(90,0)getTemp(90,40)getTemp(90,40)getTemp(90,40)getTemp(90,40)getTemp(90,40)getTemp(60,40)getTemp(60,40)getTemp(1000,40)getTemp(1000,40)getTemp(1000,40)getTemp(30,40)getTemp(30,40)def getTemp(d:Int, y:Int):Int = {  
+val grad:Double = 0.01  
+val rand = scala.util.Random.nextDouble * 6 - 3  
+val ygrad = 20.0 / 60  
+val aver = 40 - Math.abs(y)/4  
+al ses = Math.sin(2 * Math.PI * (-30 + d)/360)  
+val sesd = 20  
+val t = aver + sesd * ses + rand  t.toInt}getTemp(30,40)getTemp(30,40)getTemp(30,40)getTemp(30,50)getTemp(30,50)def getTemp(d:Int, y:Int):Int = {  
+val grad:Double = 0.01  
+val rand = scala.util.Random.nextDouble * 6 - 3  
+val ygrad = 20.0 / 60  
+val aver = 40 - Math.abs(y)/2  
+val ses = Math.sin(2 * Math.PI * (-30 + d)/360)  
+val sesd = 20  
+val t = aver + sesd * ses + rand  t.toInt}getTemp(30,50)getTemp(30,50)getTemp(30,-50)getTemp(0,-50)getTemp(0,50)getTemp(30,50)getTemp(60,50)getTemp(120,50)getTemp(180,50)def getTemp(d:Int, y:Int):Int = {  
+val grad:Double = 0.01  
+val rand = scala.util.Random.nextDouble * 6 - 3  
+val ygrad = 20.0 / 60  
+val aver = 40 - Math.abs(y)/2  
+val ses = Math.sin(2 * Math.PI * (-30 + d)/360)  
+val sesd = 40  
+val t = aver + sesd * ses + rand  t.toInt}getTemp(180,50)getTemp(10,50)getTemp(100,50)getTemp(100,50)getTemp(100,50)def getTemp(d:Int, y:Int):Int = {  
+val grad:Double = 0.01  
+val rand = scala.util.Random.nextDouble * 6 - 3  
+val ygrad = 20.0 / 60  
+val aver = 40 - Math.abs(y)/2  
+val ses = Math.sin(2 * Math.PI * (-30 + d)/360)  
+val sesd = 40  
+val t = aver -10 + sesd * ses + rand  t.toInt}getTemp(100,50)getTemp(100,50)getTemp(100,50)getTemp(100,50)getTemp(100,50)getTemp(100,50)getTemp(100,50)getTemp(100,0)def getTemp(d:Int, y:Int):Int = {  
+val grad:Double = 0.01  
+val rand = scala.util.Random.nextDouble * 6 - 3  
+val ygrad = 20.0 / 60  
+val aver = 40 - Math.abs(y)/2  
+val ses = Math.sin(2 * Math.PI * (-30 + d)/360)  
+val sesd = 40  
+val t = aver - 30 + sesd * ses + rand  t.toInt}getTemp(100,0)getTemp(100,0)getTemp(100,50)getTemp(100,50)(1 to 365).map(d=>getTemp(d,0))(1 to 365).map(d=>getTemp(d,0)).toList(1 to 365).map(d=>getTemp(d,0)).toList.
+foreach(println)(1 to 365).map(d=>getTemp(0,d)).toList.
+foreach(println)(1 to 365).map(d=>getTemp(d,0)).toList.
+foreach(println)def getTemp(d:Int, y:Int):Int = {  
+val grad:Double = 0.01  
+val rand = scala.util.Random.nextDouble * 6 - 3  
+val ygrad = 20.0 / 60  
+val aver = 40 - Math.abs(y)/2  
+val ses = Math.sin(2 * Math.PI * (-30 + d)/360)  
+val sesd = 40  
+val t = aver + sesd * ses + rand  t.toInt}(1 to 365).map(d=>getTemp(d,50)).toList.
+foreach(println)def getTemp(d:Int, y:Int):Int = {  
+val grad:Double = 0.01  
+val rand = scala.util.Random.nextDouble * 6 - 3  
+val ygrad = 20.0 / 60  
+val aver = 40 - Math.abs(y)/2  
+val ses = Math.sin(2 * Math.PI * (-30 + d)/360)  
+val sesd = 30  
+val t = aver + sesd * ses + rand  t.toInt}(1 to 365).map(d=>getTemp(d,50)).toList.
+foreach(println)(1 to 365).map(d=>getTemp(d,0)).toList.
+foreach(println)def getTemp(d:Int, y:Int):Int = {  
+val grad:Double = 0.01  
+val rand = scala.util.Random.nextDouble * 6 - 3  
+val ygrad = 20.0 / 60  
+val aver = 2*(20 - Math.abs(y)/2)  
+val ses = Math.sin(2 * Math.PI * (-30 + d)/360)  
+val sesd = 30  
+val t = aver + sesd * ses + rand  t.toInt}(1 to 365).map(d=>getTemp(d,0)).toList.
+foreach(println)
+
+
+def getTemp(d:Int, y:Int):Int = {  
+val grad:Double = 0.01  
+val rand = scala.util.Random.nextDouble * 6 - 3  
+val ygrad = 20.0 / 60  
+val aver = (20 - Math.abs(y)/2)  
+val ses = Math.sin(2 * Math.PI * (-30 + d)/360)  
+val sesd = 20  
+val t = grad * d + aver + sesd * ses + rand  t.toInt}(1 to 365).map(d=>getTemp(d,0)).toList.
+foreach(println)(1 to 365).map(d=>getTemp(d,50)).toList.
+foreach(println)getDate(2018,10)getCoordinate()getCoordinates
+for(y <- 2010 to 2015; d <- 0 to 364) yield {  
+val coord = getCoordinates  
+val y = coord._1.toInt  s"${getDate(y,d)}\t${getCoordinates}\t${getTemp(d,y)}"}
+for(y <- 2010 to 2015; d <- 0 to 364) yield {  
+val coord = getCoordinates  
+val y = coord._1.toDouble.round.toInt  s"${getDate(y,d)}\t${getCoordinates}\t${getTemp(d,y)}"}
+for(y <- 2010 to 2015; d <- 0 to 364) yield {  
+val coord = getCoordinates  
+val yy = coord._1.toDouble.round.toInt  s"${getDate(y,d)}\t${getCoordinates}\t${getTemp(d,yy)}"}
+for(y <- 2010 to 2015; d <- 0 to 364) yield {  
+val coord = getCoordinates  
+val crd = (coord._1 - coord._1 % 0.01, coord._2 - coord._2 % 0.01)  
+val yy = coord._1.toDouble.round.toInt  s"${getDate(y,d)}\t${crd}\t${getTemp(d,yy)}"}
+for(y <- 2010 to 2015; d <- 0 to 364) yield {  
+val coord = getCoordinates  
+val crd = (coord._1 - coord._1 % 0.01, coord._2 - coord._2 % 0.01)  
+val yy = coord._1.toDouble.round.toInt  s"${getDate(y,d)}\t${crd}\t${getTemp(d,yy)}"}
+for(y <- 2010 to 2015; d <- 0 to 364) yield {  
+val coord = getCoordinates  
+val yy = coord._1.toDouble.round.toInt  s"${getDate(y,d)}\t${getCoordinates}\t${getTemp(d,yy)}"}def getCoordinates():(String,String) = {   import scala.util.Random   
+val y = Random.nextDouble * 180 - 60.0   
+val x = Random.nextDouble * 60 - 30.0   ((y - (y % 0.01)).toString, (x - (x % 0.01)).toString)}
+for(y <- 2010 to 2015; d <- 0 to 364) yield {  
+val coord = getCoordinates  
+val yy = coord._1.toDouble.round.toInt  s"${getDate(y,d)}\t$coord\t${getTemp(d,yy)}"}
+val data = 
+for(y <- 2010 to 2015; d <- 0 to 364) yield {  
+val coord = getCoordinates  
+val yy = coord._1.toDouble.round.toInt  s"${getDate(y,d)}\t$coord\t${getTemp(d,yy)}"}
+val data = 
+for(y <- 2010 to 2015; d <- 0 to 364) yield {  
+val coord = getCoordinates  
+val yy = coord._1.toDouble.round.toInt  
+for(i<- 0 to 100) {    s"${getDate(y,d)}\t$coord\t${getTemp(d,yy)}"  }}
+val data = 
+for(y <- 2010 to 2015; d <- 0 to 364) yield {  
+val coord = getCoordinates  
+val yy = coord._1.toDouble.round.toInt  
+for(i<- 0 to 100) {    s"${getDate(y,d)}\t$coord\t${getTemp(d,yy)}"  }}
+val data = 
+for(y <- 2010 to 2015; d <- 0 to 364) yield {  
+for (i <- 0 to 100) yield {  
+val coord = getCoordinates  
+val yy = coord._1.toDouble.round.toInt      s"${getDate(y,d)}\t$coord\t${getTemp(d,yy)}"  }}(1 to 20).map(getCoordinates).
+foreach(println)(1 to 20).map(getCoordinates()).
+foreach(println)(1 to 20).map(i=>getCoordinates()).
+foreach(println)def getCoordinates():(String,String) = {   import scala.util.Random   
+val y = Random.nextDouble * 180 - 60.0   
+val x = Random.nextDouble * 60 - 30.0   (((y * 100).round/100).toString, (x - (x % 0.01)).toString)}def getCoordinates():(String,String) = {   import scala.util.Random   
+val y = Random.nextDouble * 180 - 60.0   
+val x = Random.nextDouble * 60 - 30.0   (((y * 100).round/100).toString, ((x * 100).round/100).toString)}
+val data = 
+for(y <- 2010 to 2015; d <- 0 to 364) yield {  
+for (i <- 0 to 100) yield {  
+val coord = getCoordinates  
+val yy = coord._1.toDouble.round.toInt      s"${getDate(y,d)}\t$coord\t${getTemp(d,yy)}"  }}
+val wr = new java.io.PrintWriter("data.txt")data.
+foreach(wr.println)wr.closedata.flatten.toList
+val wr = new java.io.PrintWriter("data.txt")data.
+foreach(wr.println)wr.closedata.flatten.take(19).
+foreach(println)data.sizedata(1)data(3)data.flatten.size
+val wr = new java.io.PrintWriter("data.txt")data.flatten.
+foreach(ln=>wr.println(ln);wr.print("#"))data.flatten.
+foreach(ln=>{ wr.println(ln) wr.print("#"))data.flatten.
+foreach(ln=>{ wr.println(ln)  wr.print("#")  })wr.close()
+val hist = repl.history.mkString("\n")
