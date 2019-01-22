@@ -11,6 +11,8 @@ object AppScala {
     val sc = new SparkContext(conf)
 
     val data = sc.textFile("D:\\projects\\hiring-event\\src\\main\\resources\\test")
+
+
     data.collect().foreach(println)
 
   }
