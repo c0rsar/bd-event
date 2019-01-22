@@ -1,20 +1,20 @@
 package main.scala
 
 import org.apache.spark.{SparkContext,SparkConf}
+import com.github.tototoshi.csv._
 
 object AppScala {
 
   def main(args:Array[String]): Unit = {
 
-    println("in scala")
     val conf = new SparkConf().setAppName("event").setMaster("local")
     val sc = new SparkContext(conf)
 
-    val data = sc.textFile("D:\\projects\\hiring-event\\src\\main\\resources\\test")
-
-
-    data.collect().foreach(println)
+    val result = task1(sc)
+    println(result)
 
   }
+
+  def task1(sc:SparkContext) = ???
 
 }
