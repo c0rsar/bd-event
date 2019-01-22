@@ -10,8 +10,7 @@ public class AppJava {
         SparkConf conf = new SparkConf().setAppName("event");
         JavaSparkContext sc = new JavaSparkContext(conf);
 
-        JavaRDD<String> data = sc.textFile("... path");
-
+       // JavaRDD<String> data = sc.textFile(<<path>>);
 
     }
 }
